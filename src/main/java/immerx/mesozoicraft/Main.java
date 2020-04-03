@@ -1,7 +1,8 @@
 package immerx.mesozoicraft;
 
 import immerx.mesozoicraft.proxy.CommonProxy;
-import immerx.mesozoicraft.util.Reference;
+import immerx.mesozoicraft.tabs.MesozoicTab;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -14,6 +15,8 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 public class Main
 {
+	public static final CreativeTabs mesozoictab = new MesozoicTab("mesozoictab");
+	
 	@Instance
 	public static Main instance;
 	
@@ -21,9 +24,20 @@ public class Main
 	public static CommonProxy proxy;
 	
 	@EventHandler
-	public static void preInit(FMLPreInitializationEvent event) {}
+	public static void preInit(FMLPreInitializationEvent event)
+	{
+		
+	}
+	
 	@EventHandler
-	public static void init(FMLInitializationEvent event) {}
+	public static void init(FMLInitializationEvent event)
+	{
+		
+	}
+	
 	@EventHandler
-	public static void postInit(FMLPostInitializationEvent event) {}
+	public static void postInit(FMLPostInitializationEvent event)
+	{
+		
+	}
 }

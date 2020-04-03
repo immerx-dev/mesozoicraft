@@ -10,5 +10,18 @@ public class ItemInit
 {
 	public static final List<Item> ITEMS = new ArrayList<Item>();
 	
+	//Material
+	
+	
+	//Items
 	public static final Item AMBER = new ItemBase("amber");
+	
+	//Tools
+	
+	
+	//Armor
+	
+	
+	//Food
+	
 }

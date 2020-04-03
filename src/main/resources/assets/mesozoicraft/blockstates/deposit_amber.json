@@ -1,0 +1,12 @@
+{
+	"forge_marker": 1,
+	"variants": {
+		"normal": {
+			"model": "mesozoicraft:deposit_amber"
+		},
+		"inventory": {
+			"model": "mesozoicraft:deposit_amber",
+			"transform": "forge:default-block"
+		}
+	}
+}
